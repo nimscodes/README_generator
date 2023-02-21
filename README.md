@@ -1,45 +1,49 @@
+# Project Awesome
 
-    # Project 1
+## Table of Contents
 
-    ## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license) 
-    - [Contribution](#contributing)
-    - [Tests](#test)
-    - [Questions](#questions)
-      - [Github](#username)
-      - [Email](#email)
 
-    # Description
+# Description
 
-    This is a brief description of project
+This is an awesome project to demonstrate how to use an npm package.
 
-    # Installation Guide
 
-    dsffd sd
 
-    # Usage
+# Installation
 
-    s d
+Install npm and node
 
-    # License
 
-    [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-    # Contributing
+# Usage
 
-    Yes, I would like other developers to contribute.
+This is an example of use and a screenshot.
 
-    # Test
 
-    fdsfsd 
 
-    # Questions
+# License
 
-    - Github Profile: [nimscodes](https://github.com/nimscodes)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-    - Email: princenims1994@gmail.com
 
+
+# Contributing
+
+Yes, I would like other developers to contribute.
+
+
+
+
+
+# Questions
+
+- Github Profile: [nimscodes](https://github.com/nimscodes)
+
+- Email: nimscodes

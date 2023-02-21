@@ -1,5 +1,5 @@
 // function to generate markdown for README
-function getLicense(license_code){
+function getLicense(license_code) {
   let license = ``;
   switch (license_code) {
     case 'MIT':
@@ -19,7 +19,7 @@ function getLicense(license_code){
       break;
     case 'None':
       license = ``;
-      break;  
+      break;
     default:
       break;
   }
@@ -27,53 +27,63 @@ function getLicense(license_code){
   return license;
 }
 
+function displayToC(data) {
+  return '## Table of Contents' +
+    '\n\n' +
+    (data.description !== '' ? '- [Description](#description)\n' : '') +
+    (data.installation !== '' ? '- [Installation](#installation)\n' : '') +
+    (data.usage !== '' ? '- [Usage](#usage)\n' : '') +
+    (data.license !== '' ? '- [License](#license)\n' : '') +
+    (data.contributing !== '' ? '- [Contributing](#contributing)\n' : '') +
+    (data.test !== '' ? '- [Tests](#test)\n' : '') +
+    ((data.username !== '' ) || (data.email !== '') ? '- [Questions](#questions)\n' : '') ;
+}
+
+function displayDescription(data){
+  return (data.description !== '' ? `# Description\n\n${data.description}\n\n\n` : '')
+}
+function displayInstallation(data){
+  return (data.installation !== '' ? `# Installation\n\n${data.installation}\n\n\n` : '')
+}
+function displayUsage(data){
+  return (data.usage !== '' ? `# Usage\n\n${data.usage}\n\n\n` : '')
+}
+function displayLicense(data){
+  return (data.license !== '' ? `# License\n\n${getLicense(data.license)}\n\n\n` : '')
+}
+function displayContributing(data){
+  return (data.contributing !== '' ? `# Contributing\n\n${data.contributing ? 'Yes, I would like other developers to contribute.' : 'No contribution is required.'}\n\n\n` : '')
+}
+
+function displayTests(data){
+  return (data.test !== '' ? `# Tests\n\n${data.test}\n\n\n` : '')
+}
+
+function displayQuestion(data){
+  return ((data.username !== '' )|| (data.email !== '') ? `# Questions\n\n${
+    data.username !== '' ? `- Github Profile: [${data.username}](${data.userlink})` : ''
+  }\n\n${data.email !== '' ? `- Email: ${data.email}` : ''}` : '')
+}
 
 
 function generateMarkdown(data) {
   return `# ${data.title}
 
-    ## Table of Contents
+${displayToC(data)}
 
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license) 
-    - [Contribution](#contributing)
-    - [Tests](#test)
-    - [Questions](#questions)
-      - [Github](#username)
-      - [Email](#email)
+${displayDescription(data)}
 
-    # Description
+${displayInstallation(data)}
 
-    ${data.description}
+${displayUsage(data)}
 
-    # Installation Guide
+${displayLicense(data)}
 
-    ${data.installation}
+${displayContributing(data)}
 
-    # Usage
+${displayTests(data)}
 
-    ${data.usage}
-
-    # License
-
-    ${getLicense(data.license)}
-
-    # Contributing
-
-    ${data.contributing ? 'Yes, I would like other developers to contribute.' : 'No contribution is required.'}
-
-    # Test
-
-    ${data.test}
-
-    # Questions
-
-    - Github Profile: [${data.username}](${data.userlink})
-
-    - Email: ${data.email}
-
+${displayQuestion(data)}
 `;
 }
 
