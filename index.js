@@ -4,6 +4,8 @@ const inquirer = require("inquirer");
 const emailValidator = require('email-validator');
 const generateMarkdown = require("./utils/generateMarkdown");
 
+console.log(path.dirname('README.md'));
+
 // array of questions for user
 const questions = [
     {

@@ -1,49 +1,51 @@
-# Project Awesome
+# README Generator Application
 
 ## Table of Contents
 
 - [Description](#description)
-- [Installation](#installation)
 - [Usage](#usage)
+    - [Screen Recording](#screen-recording)
+    - [Link](#link)
+- [My Process](#my-process)
+    - [Techonologies Used](#techologies-used)
+    - [What I learnt](#what-i-learned)
 - [License](#license)
-- [Contributing](#contributing)
-- [Questions](#questions)
-
-
-# Description
-
-This is an awesome project to demonstrate how to use an npm package.
+- [Credits](#credits)
 
 
 
-# Installation
+## Description
 
-Install npm and node
+This is a command-line application that dynamically generate a professional README.md file using inquirer package.
+
+## Usage
+
+Acesss the link of the git repo and a screen recording of app demonstration
+
+### Screen Recording
+
+### Links
+- Solution URL: [git repo](https://github.com/nimscodes/README_generator)
+
+## My process
+
+### Techologies Used
+
+- Vanilla Javascript
+- [Node](https://nodejs.org/en/) - JS Engine
+- [Inquirer](https://www.npmjs.com/package/inquirer) - npm Package
+
+### What I learned
+
+This project taught me how to access javascript file in another javascript file using import and export modules concept.
+
+It also taught me how to use npm packages 
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
+## Credits
 
-# Usage
-
-This is an example of use and a screenshot.
-
-
-
-# License
-
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-
-
-
-# Contributing
-
-Yes, I would like other developers to contribute.
-
-
-
-
-
-# Questions
-
-- Github Profile: [nimscodes](https://github.com/nimscodes)
-
-- Email: nimscodes
+Tikto
