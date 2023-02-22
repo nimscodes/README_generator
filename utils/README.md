@@ -1,54 +1,60 @@
-# Frontend
+# REAMDE Generator
 
 ## Table of Contents
 
 - [Description](#description)
 - [Installation](#installation)
+- [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#test)
 - [Questions](#questions)
 
 
-# Description
+## Description
 
-See ya x
-
-
-
-
-# Installation
-
-node & npm
+This is a command line app that dynamically creates a README.md file
 
 
 
 
+## Installation
 
-
-# License
-
-
+You need to install node and inquirer npm package
 
 
 
 
-# Contributing
+## Usage
+
+Below are examples of usage and a screen recording
+
+
+
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+
+
+## Contributing
 
 Yes, I would like other developers to contribute.
 
 
 
 
-# Tests
+## Tests
 
-fdf
-
-
+This is a running test for the project
 
 
-# Questions
 
-- Github Profile: [nimscodes]()
 
-- Email: emai@g.com
+## Questions
+
+- Github Profile: [nimscodes](https://github.com/nimscodes)
+
+- Email: princenims@gmail.com

@@ -23,6 +23,7 @@ This is a command-line application that dynamically generate a professional READ
 Acesss the link of the git repo and a screen recording of app demonstration
 
 ### Screen Recording
+- Project Demo: [watch me](assets/demo/README_Generator_App_Demo.mp4)
 
 ### Links
 - Solution URL: [git repo](https://github.com/nimscodes/README_generator)

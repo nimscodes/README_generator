@@ -87,7 +87,7 @@ function init() {
         .then(answers => {
             console.log(answers);
             const markdown = generateMarkdown(answers);
-            writeToFile('README.md', markdown);
+            writeToFile('./utils/README.md', markdown);
         })
         .catch(err => console.log(err))
 }
